@@ -19,7 +19,7 @@ public class HW2{
     }
 
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        Scanner scanner = new Scanner(System.in); {
             System.out.print("Enter first integer: ");
             int firstNumber = scanner.nextInt();
 
